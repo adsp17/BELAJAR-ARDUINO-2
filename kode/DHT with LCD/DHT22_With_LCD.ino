@@ -15,7 +15,7 @@ void setup() {
     }
     Serial.print(F("\n >>> AM2302-Sensor_Example <<<\n\n"));
 
-    lcd.begin();
+    lcd.begin(16,2);
     lcd.backlight();
     lcd.setCursor(0, 0);
     lcd.print("Initializing...");
